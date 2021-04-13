@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metal Mania', sans-serif;
+  }
+
+  body {
+      background-image: url("/images/trivium.jpg");
+        background-size: cover;
+        padding-top: 11px
+  }
+
+/* HOME PAGE */
+
+  .home-section-box {
+      display: flex;
+     justify-content: center;
+     height: 750px;
+     align-items: center;
+  }
+
+  .home-section {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+      width: 500px;
+      height: 500px;
+      border-radius: 20%;
+  }
+
+  .title-home-section {
+      border: 1px solid black;
+      font-size: 100px;
+  }
+
+  .nav-section {    
+      padding-left: 20px;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: white;
+      border-radius: 90%;
+      opacity: 0.4;
+  }
+
+  .nav-section-link {
+     color: white;
+      background-color: #404040;
+      padding: 20px;
+      border-radius: 20%;
+      text-decoration: none !important;
+      text-decoration: underline;
+   
+  }
+
+  /* ABOUT PAGE */
+
+  .home-section-box {
+    display: flex;
+   justify-content: center;
+   height: 750px;
+   align-items: center;
+}
+
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 800px;
+    height: 600px;
+    border-radius: 20%;
+}
+
+.title-home-section {
+
+    font-size: 100px;
+}
+
+.nav-section {    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* ABOUT PAGE */
+.home-section-text-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.home-section-text {
+    margin-bottom: 40px;
+    width: 400px;
+    text-align: center;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 5%;
+    padding: 10px;
+    opacity: 0.7;
+    color: black;
+}
+
+/* WORKS PAGES */
+
+.home-section-albums {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-bottom: 40px;
+}
+
+.home-section-albums-cover {
+    border: 1px solid #404040;
+    height: 150px;
+    width: 150px;
+}
+
+.home-section-albums-cover-text {
+    font-size: 12px;
+}
